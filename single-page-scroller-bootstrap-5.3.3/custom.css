@@ -1,0 +1,23 @@
+/* ADD YOUR CUSTOM CSS TO THIS FILE BELOW */
+
+
+.card-hover-text{
+    display:none;
+}
+.card:hover .card-text{
+    display:none;
+}
+.card:hover .card-hover-text{
+    display:block;
+}
+
+
+.card-hover-img{
+    display:none;
+}
+.card:hover .card-hover-off{
+    display:none;
+}
+.card:hover .card-hover-img{
+    display:block;
+}

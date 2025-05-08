@@ -1,0 +1,47 @@
+/* ADD YOUR CUSTOM CSS TO THIS FILE BELOW */
+
+.bg-primary { background-image: url("camping.png") !important;
+			  background-size: cover;  }
+
+body, html {
+  height: 100%;
+}
+
+.parallax {
+  
+
+  /* Full height */
+  height: 100%;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+
+.bi-instagram { font-size: 100px; color: pink; }
+
+
+.card-hover-text{
+    display:none;
+}
+.card:hover .card-text{
+    display:none;
+}
+.card:hover .card-hover-text{
+    display:block;
+}
+
+
+.card-hover-img{
+    display:none;
+}
+.card:hover .card-hover-off{
+    display:none;
+}
+.card:hover .card-hover-img{
+    display:block;
+}
